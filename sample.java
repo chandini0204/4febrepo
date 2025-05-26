@@ -14,5 +14,9 @@ public class getRemoteIP
         {
             System.out.println("Exception caugh="+e.getMessage());
         }
+	finally
+	{
+		System.out.println("end of the program");
+	}
     }
 }
